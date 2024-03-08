@@ -26,3 +26,22 @@ Replace /path/to/spawnPy with the actual path to the spawnPy directory.
 
 ## Usage
 To generate a new Python script, use the following command:
+``` bash
+spawnPy -n "new_script_name"
+```
+
+Replace "new_script_name" with the desired name of your Python script. If you do not include the .py extension, spawnPy will automatically append it.
+
+# Options
+. -n, --script-name: Specifies the name of the new Python script to be generated.
+
+## Example
+To create a new Python script named hello_world.py, run:
+``` bash
+spawnPy -n "hello_world"
+```
+This will generate a new file named hello_world.py in the current directory, pre-filled with the template code.
+
+## Customizing the Template
+The default script template is located in template.py within the spawnPy directory. You can modify this template to include any default code or import statements you frequently use.
+
