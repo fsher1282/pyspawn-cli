@@ -14,19 +14,19 @@ cd pyspawn-cli
 ```
 
 Make the main script executable:
-``` bash
+```bash
 chmod +x spawnPy.py
 ```
 
 Optionally, you can add the spawnPy directory to your PATH to run spawnPy from any location on your system. Add the following line to your .bashrc, .zshrc, or equivalent shell configuration file:
-``` bash
+```bash
 export PATH="$PATH:/path/to/pyspawn-cli"
 ```
 Replace /path/to/spawnPy with the actual path to the spawnPy directory.
 
 ## Usage
 To generate a new Python script, use the following command:
-``` bash
+```bash
 spawnPy -n "new_script_name"
 ```
 
@@ -37,7 +37,7 @@ Replace "new_script_name" with the desired name of your Python script. If you do
 
 ## Example
 To create a new Python script named hello_world.py, run:
-``` bash
+```bash
 spawnPy -n "hello_world"
 ```
 This will generate a new file named hello_world.py in the current directory, pre-filled with the template code.
