@@ -19,3 +19,10 @@ chmod +x spawnPy.py
 ```
 
 Optionally, you can add the spawnPy directory to your PATH to run spawnPy from any location on your system. Add the following line to your .bashrc, .zshrc, or equivalent shell configuration file:
+bash```
+export PATH="$PATH:/path/to/spawnPy"
+```
+Replace /path/to/spawnPy with the actual path to the spawnPy directory.
+
+## Usage
+To generate a new Python script, use the following command:
