@@ -8,19 +8,19 @@ Before installing `pyspawn-cli`, ensure you have Python installed on your system
 
 To install `spawnPy`, clone the repository to your local machine and navigate to the project directory:
 
-```bash
+``` bash
 git clone https://github.com/fsher1282/pyspawn-cli/tree/main
-cd spawnPy
+cd pyspawn-cli
 ```
 
 Make the main script executable:
-```bash
+``` bash
 chmod +x spawnPy.py
 ```
 
 Optionally, you can add the spawnPy directory to your PATH to run spawnPy from any location on your system. Add the following line to your .bashrc, .zshrc, or equivalent shell configuration file:
-```bash
-export PATH="$PATH:/path/to/spawnPy"
+``` bash
+export PATH="$PATH:/path/to/pyspawn-cli"
 ```
 Replace /path/to/spawnPy with the actual path to the spawnPy directory.
 
